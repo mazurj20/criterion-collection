@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+.header {
+  height: 8vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerCenter > h1 {
+  color: #a2bbc2bd;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 5px;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a2bbc2bd;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: small;
+  transition: 0.5s;
+}
+
+.headerRight > .MuiSvgIcon-root {
+  font-size: smaller;
+}
+
+.headerRight:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
